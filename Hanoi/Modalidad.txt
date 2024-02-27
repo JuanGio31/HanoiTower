@@ -1,0 +1,40 @@
+opciones
+    1. Mover disco [T1] a Torre 2
+    2. Mover disco [T1] a Torre 3
+    3. Mover disco [T2] a Torre 1
+    4. Mover disco [T2] a Torre 3
+    5. Mover disco [T3] a Torre 1
+    6. Mover disco [T3] a Torre 2
+    0. Salir.
+
+
+
+
+------------------------- vista ------------------------------
+0   + - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+1  |            1                     2                     3            |
+2  |                                                                     |
+3  |            |                     |                     |            |
+4  |            |                     |                     |            |
+5  |           ***                    |                     |            |
+6  |          *****                   |                     |            |
+7  |         *******                  |                     |            |
+8  |        *********                 |                     |            |
+9  |       ***********                |                     |            |
+10 |      *************               |                     |            |
+11 |     ***************              |                     |            |
+12 |   MMMMMMMMMMMMMMMMMMM   MMMMMMMMMMMMMMMMMMM   MMMMMMMMMMMMMMMMMMM   |
+13 |                                                                     |
+14  + - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+
+MMMMMMMMMMMMMMMMMMM -> Base de Torre -> 19
+
+el disco mas grande (#7) equivale (representacion) 15 '*'
+    -> Si la base 19 'M' entonces 2...' ' antes del discoMayor y 2...' ' despues. 
+        -> cada disco de menor dimension equivale a: Disco(prev)-2 '*'
+            entonces... 2+i (i es un iterador) para los espacion en blanco.
+
+
+char matriz[] = 
+
+
